@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+
+    "files.associations": {
+        "*.html": "jinja-html"
+      },
+      "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+      ],
+}
